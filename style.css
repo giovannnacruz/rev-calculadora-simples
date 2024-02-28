@@ -1,0 +1,22 @@
+.calculadora {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(192, 43, 43);
+    border-radius: 5px;
+}
+
+#calculadora-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator-form input,
+#calculator-form select,
+#calculator-form button {
+    margin-bottom: 10px;
+}
+
+#result {
+    margin-top: 10px;
+}
